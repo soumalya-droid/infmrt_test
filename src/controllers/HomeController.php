@@ -22,4 +22,8 @@ class HomeController extends BaseController {
   public function faq() {
     return $this->view('pages/faq');
   }
+
+  public function about() {
+    return $this->view('pages/about');
+  }
 }

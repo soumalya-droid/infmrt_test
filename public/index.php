@@ -35,6 +35,7 @@ $routes = [
   'pages/faq' => ['GET','HomeController@faq'],
   'contact' => ['GET','ContactController@index'],
   'contact/send' => ['POST','ContactController@send'],
+  'about' => ['GET','HomeController@about'],
 ];
 
 // Resolve route
