@@ -11,7 +11,7 @@
             <a href="<?= base_url('') ?>" class="text-gray-600 hover:text-purple-700 font-medium transition-colors duration-300">Home</a>
             <a href="<?= base_url('campaigns') ?>" class="text-gray-600 hover:text-purple-700 font-medium transition-colors duration-300">Campaigns</a>
             <a href="#influencers" class="text-gray-600 hover:text-purple-700 font-medium transition-colors duration-300">Influencers</a>
-            <a href="#" class="text-gray-600 hover:text-purple-700 font-medium transition-colors duration-300">Contact</a>
+            <a href="<?= base_url('contact') ?>" class="text-gray-600 hover:text-purple-700 font-medium transition-colors duration-300">Contact</a>
         </div>
 
         <!-- Right Side Buttons -->
@@ -44,7 +44,7 @@
         <a href="<?= base_url('') ?>" class="block px-6 py-3 text-gray-600 hover:bg-gray-100 hover:text-purple-700 transition-colors duration-300">Home</a>
         <a href="<?= base_url('campaigns') ?>" class="block px-6 py-3 text-gray-600 hover:bg-gray-100 hover:text-purple-700 transition-colors duration-300">Campaigns</a>
         <a href="#influencers" class="block px-6 py-3 text-gray-600 hover:bg-gray-100 hover:text-purple-700 transition-colors duration-300">Influencers</a>
-        <a href="#" class="block px-6 py-3 text-gray-600 hover:bg-gray-100 hover:text-purple-700 transition-colors duration-300">Contact</a>
+        <a href="<?= base_url('contact') ?>" class="block px-6 py-3 text-gray-600 hover:bg-gray-100 hover:text-purple-700 transition-colors duration-300">Contact</a>
 
         <?php if ($u): ?>
             <a href="<?= base_url('dashboard') ?>" class="block px-6 py-3 text-gray-600 hover:bg-gray-100 hover:text-purple-700 transition-colors duration-300">Dashboard</a>
