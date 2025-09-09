@@ -9,10 +9,10 @@
         <!-- Desktop Links -->
         <div class="hidden lg:flex items-center space-x-6">
             <a href="<?= base_url('') ?>" class="text-gray-600 hover:text-purple-700 font-medium transition-colors duration-300">Home</a>
-            <a href="<?= base_url('about') ?>" class="text-gray-600 hover:text-purple-700 font-medium transition-colors duration-300">About Us</a>
             <a href="<?= base_url('campaigns') ?>" class="text-gray-600 hover:text-purple-700 font-medium transition-colors duration-300">Campaigns</a>
             <a href="<?= base_url('influencers') ?>" class="text-gray-600 hover:text-purple-700 font-medium transition-colors duration-300">Influencers</a>
             <a href="<?= base_url('contact') ?>" class="text-gray-600 hover:text-purple-700 font-medium transition-colors duration-300">Contact</a>
+            <a href="<?= base_url('about') ?>" class="text-gray-600 hover:text-purple-700 font-medium transition-colors duration-300">About Us</a>
         </div>
 
         <!-- Right Side Buttons -->
@@ -43,10 +43,10 @@
     <!-- Mobile Menu -->
     <div id="mobileMenu" class="lg:hidden hidden bg-white border-t border-gray-200">
         <a href="<?= base_url('') ?>" class="block px-6 py-3 text-gray-600 hover:bg-gray-100 hover:text-purple-700 transition-colors duration-300">Home</a>
-        <a href="<?= base_url('about') ?>" class="block px-6 py-3 text-gray-600 hover:bg-gray-100 hover:text-purple-700 transition-colors duration-300">About Us</a>
         <a href="<?= base_url('campaigns') ?>" class="block px-6 py-3 text-gray-600 hover:bg-gray-100 hover:text-purple-700 transition-colors duration-300">Campaigns</a>
         <a href="<?= base_url('influencers') ?>" class="block px-6 py-3 text-gray-600 hover:bg-gray-100 hover:text-purple-700 transition-colors duration-300">Influencers</a>
         <a href="<?= base_url('contact') ?>" class="block px-6 py-3 text-gray-600 hover:bg-gray-100 hover:text-purple-700 transition-colors duration-300">Contact</a>
+        <a href="<?= base_url('about') ?>" class="block px-6 py-3 text-gray-600 hover:bg-gray-100 hover:text-purple-700 transition-colors duration-300">About Us</a>
 
         <?php if ($u): ?>
             <a href="<?= base_url('dashboard') ?>" class="block px-6 py-3 text-gray-600 hover:bg-gray-100 hover:text-purple-700 transition-colors duration-300">Dashboard</a>

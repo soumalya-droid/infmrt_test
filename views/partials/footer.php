@@ -20,7 +20,7 @@
                     <ul class="space-y-2">
                         <li><a href="<?= base_url('about') ?>" class="hover:text-white">About Us</a></li>
                         <li><a href="<?= base_url('campaigns') ?>" class="hover:text-white">Campaigns</a></li>
-                        <li><a href="#influencers" class="hover:text-white">Influencers</a></li>
+                        <li><a href="<?= base_url('influencers') ?>" class="hover:text-white">Influencers</a></li>
                         <li><a href="<?= base_url('contact') ?>" class="hover:text-white">Contact</a></li>
                     </ul>
                 </div>
