@@ -18,4 +18,8 @@ class HomeController extends BaseController {
   public function terms() {
     return $this->view('pages/terms');
   }
+
+  public function faq() {
+    return $this->view('pages/faq');
+  }
 }

@@ -28,7 +28,7 @@
                 <div>
                     <h4 class="text-lg font-semibold text-white mb-4">Support</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-white">FAQ</a></li>
+                        <li><a href="<?= base_url('pages/faq') ?>" class="hover:text-white">FAQ</a></li>
                         <li><a href="<?= base_url('pages/privacy') ?>" class="hover:text-white">Privacy Policy</a></li>
                         <li><a href="<?= base_url('pages/terms') ?>" class="hover:text-white">Terms of Service</a></li>
                     </ul>
