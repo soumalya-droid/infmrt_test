@@ -21,7 +21,7 @@
                         <li><a href="#" class="hover:text-white">About Us</a></li>
                         <li><a href="#campaigns" class="hover:text-white">Campaigns</a></li>
                         <li><a href="#influencers" class="hover:text-white">Influencers</a></li>
-                        <li><a href="#" class="hover:text-white">Contact</a></li>
+                        <li><a href="<?= base_url('contact') ?>" class="hover:text-white">Contact</a></li>
                     </ul>
                 </div>
                 <!-- Support -->

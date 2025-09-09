@@ -33,6 +33,8 @@ $routes = [
   'pages/privacy' => ['GET','HomeController@privacy'],
   'pages/terms' => ['GET','HomeController@terms'],
   'pages/faq' => ['GET','HomeController@faq'],
+  'contact' => ['GET','ContactController@index'],
+  'contact/send' => ['POST','ContactController@send'],
 ];
 
 // Resolve route
