@@ -26,4 +26,8 @@ class HomeController extends BaseController {
   public function about() {
     return $this->view('pages/about');
   }
+
+  public function influencers() {
+    return $this->view('pages/influencers');
+  }
 }

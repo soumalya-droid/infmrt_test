@@ -36,6 +36,7 @@ $routes = [
   'contact' => ['GET','ContactController@index'],
   'contact/send' => ['POST','ContactController@send'],
   'about' => ['GET','HomeController@about'],
+  'influencers' => ['GET','HomeController@influencers'],
 ];
 
 // Resolve route
