@@ -14,4 +14,8 @@ class HomeController extends BaseController {
   public function privacy() {
     return $this->view('pages/privacy');
   }
+
+  public function terms() {
+    return $this->view('pages/terms');
+  }
 }

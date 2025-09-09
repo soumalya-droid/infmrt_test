@@ -31,6 +31,7 @@ $routes = [
 
   'payments' => ['GET','PaymentController@index'], // placeholder
   'pages/privacy' => ['GET','HomeController@privacy'],
+  'pages/terms' => ['GET','HomeController@terms'],
 ];
 
 // Resolve route
