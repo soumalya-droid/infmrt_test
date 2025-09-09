@@ -30,6 +30,7 @@ $routes = [
   'profile/edit' => ['GET|POST','ProfileController@edit'],
 
   'payments' => ['GET','PaymentController@index'], // placeholder
+  'privacy' => ['GET','HomeController@privacy'],
 ];
 
 // Resolve route

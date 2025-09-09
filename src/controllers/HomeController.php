@@ -10,4 +10,8 @@ class HomeController extends BaseController {
     $campaigns = $stmt->fetchAll();
     return $this->view('home', compact('campaigns'));
   }
+
+  public function privacy() {
+    return $this->view('pages/privacy');
+  }
 }
