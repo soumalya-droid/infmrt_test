@@ -287,40 +287,50 @@
         <!-- Top Influencers Section -->
         <section id="influencers" class="py-20 bg-white">
             <div class="container mx-auto px-6">
-                <h2 class="section-heading text-center mb-12">Our Influencers</h2>
+                <h2 class="section-heading text-center mb-12">Our Top Influencers</h2>
                 <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <!-- Influencer Card 1 -->
-                    <div class="influencer-card bg-gray-50 rounded-lg text-center overflow-hidden p-6" data-aos="fade-up">
-                        <img src="https://placehold.co/120x120/a3bffa/ffffff?text=User" alt="Alex Doe" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
-                        <h5 class="text-lg font-bold mb-1">Alex Doe</h5>
-                        <p class="text-gray-500 mb-2 truncate">alex.doe@example.com</p>
-                        <p class="text-sm text-gray-400 mb-4">Joined: Aug 2024</p>
-                        <a href="#" class="btn btn-outline-primary text-sm">View Profile</a>
+                  <!-- Influencer Card -->
+                  <div class="influencer-card card" data-aos="fade-up" data-name="Olivia Chen" data-handle="@livchen" data-category="Fashion" data-bio="Olivia is a fashion icon known for her elegant style and trend-setting looks. She has collaborated with top luxury brands." data-image="https://i.pravatar.cc/300?u=olivia">
+                    <img class="w-full h-48 object-cover" src="https://i.pravatar.cc/300?u=olivia" alt="Olivia Chen">
+                    <div class="p-4 text-center">
+                      <h3 class="text-xl font-bold">Olivia Chen</h3>
+                      <p class="text-gray-500">@livchen</p>
+                      <p class="mt-2 text-purple-600 font-semibold">Fashion</p>
                     </div>
-                    <!-- Influencer Card 2 -->
-                    <div class="influencer-card bg-gray-50 rounded-lg text-center overflow-hidden p-6" data-aos="fade-up" data-aos-delay="100">
-                        <img src="https://placehold.co/120x120/d1a3ff/ffffff?text=User" alt="Jessica Smith" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
-                        <h5 class="text-lg font-bold mb-1">Jessica Smith</h5>
-                        <p class="text-gray-500 mb-2 truncate">jess.smith@example.com</p>
-                        <p class="text-sm text-gray-400 mb-4">Joined: Jul 2024</p>
-                        <a href="#" class="btn btn-outline-primary text-sm">View Profile</a>
+                  </div>
+                  <!-- Influencer Card -->
+                  <div class="influencer-card card" data-aos="fade-up" data-aos-delay="100" data-name="Marko Djuric" data-handle="@markofit" data-category="Fitness" data-bio="Marko is a certified fitness trainer and nutritionist who inspires millions to lead a healthier lifestyle through his workout programs and diet plans." data-image="https://i.pravatar.cc/300?u=marko">
+                    <img class="w-full h-48 object-cover" src="https://i.pravatar.cc/300?u=marko" alt="Marko Djuric">
+                    <div class="p-4 text-center">
+                      <h3 class="text-xl font-bold">Marko Djuric</h3>
+                      <p class="text-gray-500">@markofit</p>
+                      <p class="mt-2 text-purple-600 font-semibold">Fitness</p>
                     </div>
-                    <!-- Influencer Card 3 -->
-                    <div class="influencer-card bg-gray-50 rounded-lg text-center overflow-hidden p-6" data-aos="fade-up" data-aos-delay="200">
-                         <img src="https://placehold.co/120x120/a3e7ff/ffffff?text=User" alt="Mike Johnson" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
-                        <h5 class="text-lg font-bold mb-1">Mike Johnson</h5>
-                        <p class="text-gray-500 mb-2 truncate">mike.j@example.com</p>
-                        <p class="text-sm text-gray-400 mb-4">Joined: Jun 2024</p>
-                        <a href="#" class="btn btn-outline-primary text-sm">View Profile</a>
+                  </div>
+                  <!-- Influencer Card -->
+                  <div class="influencer-card card" data-aos="fade-up" data-aos-delay="200" data-name="Aisha Khan" data-handle="@techbyaisha" data-category="Tech" data-bio="Aisha makes technology accessible and fun. Her in-depth reviews and tutorials on the latest gadgets have made her a trusted voice in the tech community." data-image="https://i.pravatar.cc/300?u=aisha">
+                    <img class="w-full h-48 object-cover" src="https://i.pravatar.cc/300?u=aisha" alt="Aisha Khan">
+                    <div class="p-4 text-center">
+                      <h3 class="text-xl font-bold">Aisha Khan</h3>
+                      <p class="text-gray-500">@techbyaisha</p>
+                      <p class="mt-2 text-purple-600 font-semibold">Tech</p>
                     </div>
-                    <!-- Influencer Card 4 -->
-                    <div class="influencer-card bg-gray-50 rounded-lg text-center overflow-hidden p-6" data-aos="fade-up" data-aos-delay="300">
-                        <img src="https://placehold.co/120x120/ffdaa3/ffffff?text=User" alt="Sarah Chen" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
-                        <h5 class="text-lg font-bold mb-1">Sarah Chen</h5>
-                        <p class="text-gray-500 mb-2 truncate">sarah.chen@example.com</p>
-                        <p class="text-sm text-gray-400 mb-4">Joined: May 2024</p>
-                        <a href="#" class="btn btn-outline-primary text-sm">View Profile</a>
+                  </div>
+                  <!-- Influencer Card -->
+                  <div class="influencer-card card" data-aos="fade-up" data-aos-delay="300" data-name="Leo Grant" data-handle="@leoslife" data-category="Lifestyle" data-bio="Leo shares his daily adventures, from travel and food to home decor. His authentic content and engaging personality have built a loyal following." data-image="https://i.pravatar.cc/300?u=leo">
+                    <img class="w-full h-48 object-cover" src="https://i.pravatar.cc/300?u=leo" alt="Leo Grant">
+                    <div class="p-4 text-center">
+                      <h3 class="text-xl font-bold">Leo Grant</h3>
+                      <p class="text-gray-500">@leoslife</p>
+                      <p class="mt-2 text-purple-600 font-semibold">Lifestyle</p>
                     </div>
+                  </div>
+                </div>
+                 <div class="text-center mt-12">
+                    <a href="<?= base_url('influencers') ?>"
+                       class="btn btn-primary px-8 py-3 rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition transform duration-300 ease-in-out">
+                        Meet All Influencers
+                    </a>
                 </div>
             </div>
         </section>
@@ -356,6 +366,27 @@
         </section>
     </main>
 
+    <!-- Influencer Modal -->
+    <div id="influencerModal" class="modal-overlay hidden fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="modal-content bg-white p-8 rounded-lg max-w-md w-11/12 relative">
+            <button id="closeModal" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800">
+                <i class="fas fa-times text-2xl"></i>
+            </button>
+            <div class="text-center">
+                <img id="modalImage" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="" alt="">
+                <h3 id="modalName" class="text-2xl font-bold"></h3>
+                <p id="modalHandle" class="text-gray-500 text-lg"></p>
+                <p id="modalCategory" class="mt-2 text-purple-600 font-semibold"></p>
+                <p id="modalBio" class="mt-4 text-gray-600"></p>
+                <div class="mt-6 flex justify-center space-x-4 text-2xl">
+                    <a href="#" class="text-gray-500 hover:text-purple-700"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-purple-700"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-purple-700"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
     <?php include __DIR__ . '/partials/footer.php'; ?>
     <!-- AOS Script -->
@@ -366,23 +397,60 @@
             once: true,
         });
 
-        // Live search for campaigns
         document.addEventListener('DOMContentLoaded', () => {
+            // Live search for campaigns
             const searchInput = document.getElementById('campaignSearch');
-            const campaignCards = document.querySelectorAll('.campaign-card-wrapper');
+            if (searchInput) {
+                const campaignCards = document.querySelectorAll('.campaign-card-wrapper');
+                searchInput.addEventListener('keyup', (e) => {
+                    const searchTerm = e.target.value.toLowerCase();
+                    campaignCards.forEach(cardWrapper => {
+                        const title = cardWrapper.querySelector('.campaign-title').textContent.toLowerCase();
+                        if (title.includes(searchTerm)) {
+                            cardWrapper.style.display = 'block';
+                        } else {
+                            cardWrapper.style.display = 'none';
+                        }
+                    });
+                });
+            }
 
-            searchInput.addEventListener('keyup', (e) => {
-                const searchTerm = e.target.value.toLowerCase();
+            // Influencer Modal Logic
+            const influencerCards = document.querySelectorAll('#influencers .influencer-card');
+            const modal = document.getElementById('influencerModal');
+            const closeModal = document.getElementById('closeModal');
+            const modalOverlay = document.querySelector('.modal-overlay');
 
-                campaignCards.forEach(cardWrapper => {
-                    const title = cardWrapper.querySelector('.campaign-title').textContent.toLowerCase();
-                    if (title.includes(searchTerm)) {
-                        cardWrapper.style.display = 'block';
-                    } else {
-                        cardWrapper.style.display = 'none';
+            if (modal) {
+                influencerCards.forEach(card => {
+                    card.addEventListener('click', () => {
+                        const name = card.dataset.name;
+                        const handle = card.dataset.handle;
+                        const category = card.dataset.category;
+                        const bio = card.dataset.bio;
+                        const image = card.dataset.image;
+
+                        modal.querySelector('#modalName').textContent = name;
+                        modal.querySelector('#modalHandle').textContent = handle;
+                        modal.querySelector('#modalCategory').textContent = category;
+                        modal.querySelector('#modalBio').textContent = bio;
+                        modal.querySelector('#modalImage').src = image;
+
+                        modal.classList.remove('hidden');
+                    });
+                });
+
+                const hideModal = () => {
+                    modal.classList.add('hidden');
+                };
+
+                closeModal.addEventListener('click', hideModal);
+                modalOverlay.addEventListener('click', (event) => {
+                    if (event.target === modalOverlay) {
+                        hideModal();
                     }
                 });
-            });
+            }
         });
     </script>
 </body>
