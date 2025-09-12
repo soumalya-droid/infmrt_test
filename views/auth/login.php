@@ -80,6 +80,14 @@
                     </div>
                 </form>
                 
+                <div class="mt-6 text-center">
+                    <p class="text-sm text-gray-600">Or log in as a demo user:</p>
+                    <div class="flex flex-col sm:flex-row gap-4 mt-4">
+                        <button id="demoBrand" type="button" class="w-full btn bg-gray-200 text-gray-700 hover:bg-gray-300">Brand</button>
+                        <button id="demoInfluencer" type="button" class="w-full btn bg-gray-200 text-gray-700 hover:bg-gray-300">Influencer</button>
+                    </div>
+                </div>
+
                 <p class="mt-6 text-center text-sm text-gray-600">
                     No account? 
                     <a href="<?= base_url('auth/register') ?>" class="font-medium text-purple-600 hover:text-purple-500">
@@ -94,5 +102,25 @@
     <footer class="mt-auto">
         <?php require_once __DIR__ . '/../partials/footer.php'; ?>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const emailInput = document.getElementById('email');
+            const passwordInput = document.getElementById('password');
+
+            const demoBrandBtn = document.getElementById('demoBrand');
+            const demoInfluencerBtn = document.getElementById('demoInfluencer');
+
+            demoBrandBtn.addEventListener('click', () => {
+                emailInput.value = 'brand@demo.com';
+                passwordInput.value = 'brand123';
+            });
+
+            demoInfluencerBtn.addEventListener('click', () => {
+                emailInput.value = 'influencer@demo.com';
+                passwordInput.value = 'influencer123';
+            });
+        });
+    </script>
 </body>
 </html>
