@@ -37,24 +37,31 @@
             --bg-light: #f8f9fa;
         }
 
-        /* Hero Section Gradient and Pattern */
+        /* Hero Section Video Background */
         .hero-section {
-            background-color: #1a202c;
             position: relative;
             overflow: hidden;
-            background-image: url('https://placehold.co/1920x1080/2d3748/ffffff?text=Background');
-            background-size: cover;
-            background-position: center;
         }
-
-        .hero-section::before {
+        #hero-video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: 0;
+            transform: translateX(-50%) translateY(-50%);
+            background-size: cover;
+        }
+        .hero-section::after {
             content: '';
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(135deg, rgba(107, 70, 193, 0.85), rgba(66, 153, 225, 0.85));
+            background: linear-gradient(135deg, rgba(107, 70, 193, 0.7), rgba(66, 153, 225, 0.7));
             z-index: 1;
         }
 
@@ -209,9 +216,13 @@
     <main>
         <!-- Hero Section -->
         <section class="hero-section text-white py-24 md:py-32">
+            <video autoplay loop muted playsinline id="hero-video">
+                <source src="https://videos.pexels.com/video-files/3209828/3209828-hd_1280_720_25fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
             <div class="container mx-auto px-6 text-center">
                 <div class="max-w-3xl mx-auto">
-                    <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight hero-headline">Find Top Influencers. Launch Campaigns Effortlessly.</h1>
+                    <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight hero-headline">The Spark of Connection</h1>
                     <p class="text-lg md:text-xl mb-8 text-gray-200 hero-subtext">Connect brands with the right influencers, manage bids, and collaborate seamlessly.</p>
                     <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 hero-buttons">
                         <a href="#campaigns" class="btn btn-light shadow-xl text-lg">Find Campaigns</a>
