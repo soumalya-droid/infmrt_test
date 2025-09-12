@@ -19,6 +19,7 @@
         <div class="hidden lg:flex items-center space-x-4">
             <?php if ($u): ?>
                 <a href="<?= base_url('dashboard') ?>" class="text-gray-600 hover:text-purple-700 font-medium transition-colors duration-300">Dashboard</a>
+                <a href="<?= base_url('profile/edit') ?>" class="text-gray-600 hover:text-purple-700 font-medium transition-colors duration-300">Profile</a>
                 <form action="<?= base_url('auth/logout') ?>" method="post" class="inline">
                     <input type="hidden" name="csrf" value="<?= htmlspecialchars(csrf_token()) ?>">
                     <button type="submit" class="text-gray-600 hover:text-purple-700 font-medium transition-colors duration-300">Logout (<?= htmlspecialchars($u['name']) ?>)</button>
@@ -50,6 +51,7 @@
 
         <?php if ($u): ?>
             <a href="<?= base_url('dashboard') ?>" class="block px-6 py-3 text-gray-600 hover:bg-gray-100 hover:text-purple-700 transition-colors duration-300">Dashboard</a>
+            <a href="<?= base_url('profile/edit') ?>" class="block px-6 py-3 text-gray-600 hover:bg-gray-100 hover:text-purple-700 transition-colors duration-300">Profile</a>
             <form action="<?= base_url('auth/logout') ?>" method="post" class="block px-6 py-3">
                 <input type="hidden" name="csrf" value="<?= htmlspecialchars(csrf_token()) ?>">
                 <button type="submit" class="w-full text-left text-gray-600 hover:text-purple-700 transition-colors duration-300">Logout (<?= htmlspecialchars($u['name']) ?>)</button>
