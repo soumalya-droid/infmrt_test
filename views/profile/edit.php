@@ -101,6 +101,27 @@
                                    value="<?= htmlspecialchars($profile['pricing_range'] ?? '') ?>">
                         </div>
 
+                        <hr>
+
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Instagram URL</label>
+                            <input name="instagram_url" type="url" class="form-input"
+                                   placeholder="https://instagram.com/yourhandle"
+                                   value="<?= htmlspecialchars($profile['instagram_url'] ?? '') ?>">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">YouTube URL</label>
+                            <input name="youtube_url" type="url" class="form-input"
+                                   placeholder="https://youtube.com/yourchannel"
+                                   value="<?= htmlspecialchars($profile['youtube_url'] ?? '') ?>">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">TikTok URL</label>
+                            <input name="tiktok_url" type="url" class="form-input"
+                                   placeholder="https://tiktok.com/@yourhandle"
+                                   value="<?= htmlspecialchars($profile['tiktok_url'] ?? '') ?>">
+                        </div>
+
                         <button class="btn btn-primary w-full" type="submit">Save</button>
                     </form>
                 <?php endif; ?>
