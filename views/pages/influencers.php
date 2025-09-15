@@ -154,13 +154,6 @@
       // Modal logic
       influencerCards.forEach(card => {
         card.addEventListener('click', (e) => {
-            // only open modal if not clicking a button inside card
-            if(e.target.tagName.toLowerCase() === 'button') {
-                 e.stopPropagation();
-                 // could link button to a full profile page in future
-                 return;
-            }
-
           const name = card.dataset.name;
           const handle = card.dataset.handle;
           const category = card.dataset.category;
