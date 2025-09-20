@@ -9,6 +9,8 @@ CREATE TABLE IF NOT EXISTS users (
   email VARCHAR(190) NOT NULL UNIQUE,
   password VARCHAR(255) NOT NULL,
   role ENUM('company','influencer','admin') NOT NULL DEFAULT 'influencer',
+  status ENUM('active','suspended','banned') NOT NULL DEFAULT 'active',
+  is_verified BOOLEAN NOT NULL DEFAULT FALSE,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 

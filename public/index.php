@@ -15,6 +15,13 @@ $routes = [
 
   'dashboard' => ['GET','DashboardController@index'],
 
+  // Admin Routes
+  'admin/dashboard' => ['GET', 'AdminController@dashboard'],
+  'admin/users' => ['GET', 'AdminController@users'],
+  'admin/users/show' => ['GET', 'AdminController@showUser'],
+  'admin/users/update-status' => ['POST', 'AdminController@updateUserStatus'],
+
+
   'campaigns' => ['GET','CampaignController@index'],
   'campaigns/create' => ['GET|POST','CampaignController@create'],
   'campaigns/show' => ['GET','CampaignController@show'],
